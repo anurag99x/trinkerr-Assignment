@@ -106,8 +106,8 @@ function Home({ data }) {
                   key={elem[3]}
                   style={
                     (elem[2] - elem[1]) / elem[2] < 0
-                      ? { color: "rgb(235, 35, 8)" }
-                      : { color: "rgb(0, 195, 255)" }
+                      ? { color: "blue" }
+                      : { color: "red" }
                   }
                   onMouseOver={() => handleMouseOver(elem[3])}
                   onMouseLeave={() => handleMouseLeave(elem[3])}
