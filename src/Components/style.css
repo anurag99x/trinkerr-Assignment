@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"); */
+
 
 * {
     margin: 0;
@@ -38,21 +38,17 @@ input:active:focus {
     height: 8vh;
     width: 100%;
     margin-top: 10px;
-    /* border: 1px solid blue; */
     display: flex;
 }
 .name{
     height: 8vh;
     width: 15%;
-    /* border: 1px solid rgb(250, 7, 209); */
     font-weight: 900;
     font-size: 15px;
-    /* color: white; */
 }
 .Icons{
     height: 8vh;
     width: 20%;
-    /* border: 1px solid rgb(250, 7, 209); */
     display: flex;
     margin-left: 55%;
     padding: 1em;
@@ -70,7 +66,6 @@ input:active:focus {
     width: 100%;
     margin-top: 10px;
     overflow-y: scroll;
-    /* border: 1px solid green; */
 }
 .elem_div::-webkit-scrollbar {
     width: 5px;
@@ -89,15 +84,12 @@ input:active:focus {
 .child_div{
     height: 50px;
     width: 100%;
-    /* border: 1px solid blue; */
     display: flex;
     margin-top: 25px;
-    /* color: white; */
 }
 .brandName{
     height: 50px;
     width: 20%;
-    /* border: 1px solid blue; */
 }
 .brandName h1{
   font-size: 20px;
@@ -105,7 +97,6 @@ input:active:focus {
 }
 .brandName h2{
     margin-top: 5px;
-    /* margin-left: 5%; */
     font-weight: 500;
     font-size: 18px;
     color: rgb(54, 54, 54);
@@ -113,7 +104,6 @@ input:active:focus {
 .add_btn{
     height: 30px;
     width: 5%;
-    /* border: 1px solid rgb(0, 0, 34); */
     margin-left: 1%;
     justify-content: center;
     text-align: center;
@@ -123,7 +113,6 @@ input:active:focus {
 .figureData{
     height: 50px;
     width: 16%;
-    /* border: 1px solid rgb(0, 0, 34); */
     font-size: 12px;
     margin-left: 50%;
 }
@@ -133,13 +122,11 @@ font-size: 24px;
 .wish_list{
     height: 300px;
     width: 100%;
-    /* border: 1px solid green; */
     margin-top: 20px;
 }
 .watch_list_name_div{
     height: 30px;
     width: 100%;
-    /* border: 1px solid rgb(233, 40, 6); */
     color: rgb(21, 5, 172);
 }
 .myWatchlist{
@@ -153,14 +140,12 @@ font-size: 24px;
 .watchList_main_div{
     height: 50px;
     width: 100%;
-    /* border: 1px solid blue; */
     display: flex;
     margin-top: 25px;
 }
 .watch_list_name_1{
     height: 50px;
     width: 20%;
-    /* border: 1px solid green; */
 }
 .watch_list_name_1 h1{
     font-size: 20px;
