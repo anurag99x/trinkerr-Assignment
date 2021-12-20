@@ -155,8 +155,8 @@ function Home({ data }) {
                 <div className="watchList_main_div"
                 style={
                   (elem[2] - elem[1]) / elem[2] < 0
-                    ? { color: "rgb(235, 35, 8)" }
-                    : { color: "rgb(0, 195, 255)" }
+                    ? { color: "blue" }
+                    : { color: "red" }
                 }
                 >
                   <div className="watch_list_name_1">
