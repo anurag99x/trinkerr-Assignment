@@ -1,0 +1,11 @@
+.main_div{
+  min-height: 150vh;
+  min-width: 90%;
+  display: flex;
+  justify-content: center;
+  /* background-image: url('../public/Bull-Bear-Image.jpg'); */
+  background-color: rgb(226, 226, 226);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}  
