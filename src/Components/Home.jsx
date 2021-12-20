@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./style.css";
-import { v4 as uuidv4 } from "uuid";
 const axios = require("axios");
 
 function Home({ data }) {
@@ -28,7 +27,7 @@ function Home({ data }) {
   }, []);
 
   const addWatchList = (elem) => {
-    let local = JSON.parse(localStorage.getItem("marketData"));
+    let local = JSON.parse(localStorage.getItem("StockData"));
     if (elem!==undefined){
   
       if (local === null) {
@@ -36,9 +35,9 @@ function Home({ data }) {
       } else {
         local.push(elem);
       }
-      localStorage.setItem("marketData", JSON.stringify(local));
+      localStorage.setItem("StockData", JSON.stringify(local));
 
-      local = JSON.parse(localStorage.getItem("marketData"));
+      local = JSON.parse(localStorage.getItem("StockData"));
     }
     if(local==null){
       local= [];
@@ -77,12 +76,12 @@ function Home({ data }) {
         <input
           className="input_box"
           type="text"
-          placeholder="Search by brand or Company name....."
+          placeholder="Search here"
           onInput={changeClick}
         />
         <div className="name_div">
           <div className="name">
-            <h1>Balram</h1>
+            <h1>ANURAG PANDEY</h1>
           </div>
           <div className="Icons">
             <i className="fas fa-pen" id="pen"></i>
@@ -146,7 +145,7 @@ function Home({ data }) {
         <hr></hr>
         <div className="wish_list">
           <div className="watch_list_name_div">
-            <h1 className="myWatchlist"> My WatchList</h1>
+            <h1 className="myWatchlist">MY ADDING</h1>
           </div>
           {addList[0] ? 
            addList.map((elem) => {
